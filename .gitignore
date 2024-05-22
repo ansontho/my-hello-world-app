@@ -1,0 +1,12 @@
+# Ignore Terraform files and directories
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/.tfstate
+terraform/.tfstate.backup
+terraform/terraform.tfstate
+terraform/.DS_Store
+terraform/terraform.tfstate.backup
+
+# Ignore the .github directory
+.github/
+
