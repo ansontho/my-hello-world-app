@@ -15,7 +15,7 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   tags = {
     Name = "Anson's Server"
-  }
+  } 
 }
 output "instance_public_ip" {
   value = aws_instance.app_server.public_ip
